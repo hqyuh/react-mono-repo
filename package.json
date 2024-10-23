@@ -1,0 +1,25 @@
+{
+  "name": "react-mono-repo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "pnpm -r --parallel run dev",
+    "lint": "pnpm -r --parallel run lint",
+    "build": "pnpm -r --parallel run build",
+    "build:teams": "pnpm --filter teams build",
+    "build:managers": "pnpm --filter managers build",
+    "optimize": "pnpm -r --parallel run optimize",
+    "preview": "pnpm -r --parallel run preview"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}

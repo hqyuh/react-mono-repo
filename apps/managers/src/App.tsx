@@ -4,7 +4,7 @@ import { Banner, H1 } from "@mono/ui";
 function App() {
   return (
     <>
-      <div className="ui-text-3xl">Manager</div>
+      <div className="text-5xl m-6">Manager</div>
       <Banner instanceName="Manager" />
       <H1 />
     </>

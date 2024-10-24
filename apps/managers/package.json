@@ -16,7 +16,6 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@mono/tailwind-config": "workspace:*",
     "@mono/typescript-config": "workspace:*",
     "@eslint/js": "^9.11.1",
     "@types/node": "^22.7.9",

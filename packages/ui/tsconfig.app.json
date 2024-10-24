@@ -18,7 +18,12 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    "baseUrl": ".",
+    "paths": {
+      "@ui/*": ["./src/*"],
+    },
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"],
   "extends": "@mono/typescript-config/react-library.json"

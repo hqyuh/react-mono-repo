@@ -2,11 +2,17 @@
 /** Needs update components contain JSX to content */
 module.exports = {
   darkMode: ["class"],
-  content: ["./src/**/*.{ts,tsx}", "../../packages/ui/src/**/*.{ts,tsx}"],
+  content: [
+    "./components/**/*.{ts,tsx}",
+    "./apps/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+    "./ui/**/*.{ts,tsx}",
+    "../../packages/ui/src/**/*.{ts,tsx}",
+  ],
   prefix: "",
   theme: {
     container: {
-      center: true,
+      center: "true",
       padding: {
         DEFAULT: "1rem",
         sm: "2rem",
@@ -28,16 +34,16 @@ module.exports = {
         base: ["16px", "20px"],
       },
       zIndex: {
-        header: 999,
+        header: "999",
       },
       borderWidth: {
-        DEFAULT: "1.5px",
         0: "0",
         2: "2px",
         3: "3px",
         4: "4px",
         6: "6px",
         8: "8px",
+        DEFAULT: "1.5px",
       },
       colors: {
         border: "hsl(var(--border))",
@@ -81,12 +87,20 @@ module.exports = {
       },
       keyframes: {
         "accordion-down": {
-          from: { height: "0" },
-          to: { height: "var(--radix-accordion-content-height)" },
+          from: {
+            height: "0",
+          },
+          to: {
+            height: "var(--radix-accordion-content-height)",
+          },
         },
         "accordion-up": {
-          from: { height: "var(--radix-accordion-content-height)" },
-          to: { height: "0" },
+          from: {
+            height: "var(--radix-accordion-content-height)",
+          },
+          to: {
+            height: "0",
+          },
         },
       },
       animation: {

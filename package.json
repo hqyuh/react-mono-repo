@@ -2,6 +2,7 @@
   "name": "react-mono-repo",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "description": "",
   "keywords": [],
   "author": "",

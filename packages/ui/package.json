@@ -12,7 +12,10 @@
   ],
   "scripts": {
     "build": "tsc -b && vite build && tailwindcss -i ./src/styles.css -o ./dist/styles.css",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix \"src/**/*.{ts,tsx}\"",
+    "prettier": "prettier --check \"src/**/(*.tsx|*.ts|*.css|*.scss)\"",
+    "prettier:fix": "prettier --write \"src/**/(*.tsx|*.ts|*.css|*.scss)\""
   },
   "exports": {
     "./styles.css": "./src/styles.css",

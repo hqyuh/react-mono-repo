@@ -13,6 +13,9 @@
   "scripts": {
     "dev": "pnpm -r --parallel run dev",
     "lint": "pnpm -r --parallel run lint",
+    "lint:fix": "pnpm -r --parallel run lint:fix",
+    "prettier": "pnpm -r --parallel run prettier",
+    "prettier:fix": "pnpm -r --parallel run prettier:fix",
     "build": "pnpm -r --parallel run build",
     "build:teams": "pnpm --filter teams build",
     "build:managers": "pnpm --filter managers build",

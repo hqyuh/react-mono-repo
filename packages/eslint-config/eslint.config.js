@@ -33,8 +33,8 @@ export default tseslint.config(
       parser: tsParser,
       parserOptions: {
         sourceType: 'module',
-        tsconfigRootDir: __dirname,
-        project: resolve(process.cwd(), 'tsconfig.json')
+        tsconfigRootDir: process.cwd(),
+        project: resolve(process.cwd(), 'tsconfig.eslint.json')
       }
     },
     rules: {

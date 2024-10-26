@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@mono/typescript-config": "workspace:*",
+    "@mono/eslint-config": "workspace:*",
     "@eslint/js": "^9.11.1",
     "@types/node": "^22.7.9",
     "@types/react": "^18.3.10",

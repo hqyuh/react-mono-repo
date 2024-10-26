@@ -1,11 +1,11 @@
 import { Banner, H1 } from '@mono/ui';
 import { Button } from '@ui/components/ui/button';
 
-type IProps = {
+type TProps = {
   instanceName: string;
 };
 
-const t: IProps = {
+const t: TProps = {
   instanceName: 'Teams'
 };
 console.log('🐔 =>  t:', t);

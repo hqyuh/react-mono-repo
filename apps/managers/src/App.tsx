@@ -1,11 +1,12 @@
-import "./App.css";
-import { Banner, H1 } from "@mono/ui";
+import { Banner, H1 } from '@mono/ui';
+
+import './App.css';
 
 function App() {
   return (
     <>
-      <div className="text-5xl m-6">Manager</div>
-      <Banner instanceName="Manager" />
+      <div className='m-6 text-5xl'>Manager</div>
+      <Banner instanceName='Manager' />
       <H1 />
     </>
   );

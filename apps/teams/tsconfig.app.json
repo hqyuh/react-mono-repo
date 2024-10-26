@@ -23,7 +23,7 @@
     "paths": {
       "@/*": ["src/*"],
       "@ui/*": ["../../packages/ui/src/*"]
-    },
+    }
   },
   "include": ["src"],
   "exclude": ["dist", "build", "node_modules"]

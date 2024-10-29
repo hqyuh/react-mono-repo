@@ -13,6 +13,7 @@
   ],
   "scripts": {
     "dev": "pnpm -r --parallel run dev",
+    "test": "pnpm run -r test",
     "lint": "pnpm -r --parallel run lint",
     "lint:fix": "pnpm -r --parallel run lint:fix",
     "prettier": "pnpm -r --parallel run prettier",

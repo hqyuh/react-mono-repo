@@ -1,4 +1,5 @@
 import { Banner, H1 } from '@mono/ui';
+import { add } from '@mono/utils';
 import { Button } from '@ui/components/ui/button';
 
 type TProps = {
@@ -11,6 +12,8 @@ const t: TProps = {
 console.log('🐔 =>  t:', t);
 
 function App() {
+  console.log('🐔 =>  add(1, 2):', add(1, 2));
+
   return (
     <>
       <div className='text-5xl'>Teams</div>
